@@ -1,6 +1,6 @@
 FROM node:alpine
 
-#LABEL https://github.com/Mdaftab
+LABEL https://github.com/Sean-Bradley
 
 COPY package.json /nodejs/package.json
 COPY tsconfig.json /nodejs/tsconfig.json
